@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gcc -O2 -Wall -o ttf2pgf ttf2pgf.c -I/usr/local/include/freetype2 objs/*.o -lm -lz -static
